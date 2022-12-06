@@ -16,7 +16,7 @@ fn main(){
 
     println!("How long have you worked with us?");
     io::stdin().read_line(&mut input2).expect("Not a valid string");
-    let years of experience :i32 = input2.trim().parse().expect("Not a valid number");
+    let years :i32 = input2.trim().parse().expect("Not a valid number");
 
     println!("Enter your age: ");
     io::stdin().read_line(&mut input3).expect("Not a valid string");
@@ -25,7 +25,7 @@ fn main(){
     // If the employee is experienced and his/her age 
     // is => 40, the incentive is N1,560,000. 
 
-    if years of experience >= 10 && age >= 40 
+    if years >= 10 && age >= 40 
     {
         println!("Great, you're experienced {}, your incentive is N1,560,000",input1);
     
@@ -33,7 +33,7 @@ fn main(){
     // is => 30 but < 40, then incentive is N1,480,000. 
 
 
-    } else if years of experience >= 10 && age >= 30  
+    } else if years >= 10 && age >= 30
     {
         println!("Great, you're experienced {}, your incentive is N1,480,000",input1);
     
@@ -41,7 +41,7 @@ fn main(){
     // the incentive is N1,300,000.
 
 
-    } else if years of experience >= 10 && age < 28
+    } else if years >= 10 && age < 28
     {
         println!("Great, you're experienced {}, your incentive is N1,300,000",input1);
    
