@@ -1,0 +1,5 @@
+Welcome to PAU SMIS
+student_name
+matric_number
+department
+level
